@@ -1,0 +1,57 @@
+
+.week_days {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+ border-radius: 30px;
+ margin: 5px;
+}
+
+.circles {
+  appearance: none;
+  background-color: transparent;
+  border-color: purple;
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-left: 1.6rem solid purple;
+  color: #fff;
+ cursor: pointer;
+}
+
+
+.point {
+width: 8rem;
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+color: blue;
+padding: 9px;
+font-size: 25px;
+font-weight: bold;
+} 
+
+.point_btn {
+  width: inherit;
+  height: fit-content;
+  background-color: dodgerblue;
+  border-radius: 6px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+  
+  
+ 
+  
